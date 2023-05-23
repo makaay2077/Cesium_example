@@ -9703,7 +9703,7 @@ var geojsonData={
 
 
 
-// Menü öğelerini ve onların işlevlerini tanımlayın
+
 const menuOptions = [
   {
      text: '3B Kuopio',
@@ -9732,7 +9732,7 @@ const menuOptions = [
   {
     text: 'Kuopio Gerçek Zamanlı Hava Kalitesi',
     onselect: function() {
-      // JSON verilerini yükleyin
+      
       loadJsonAsEntity(jsonUrl);
     },
   },
